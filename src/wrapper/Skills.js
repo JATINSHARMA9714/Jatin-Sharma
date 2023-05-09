@@ -4,8 +4,10 @@ const Wrapper = styled.div`
 padding: 40px;
 min-height: 100vh;
 .heading{
-    border-bottom: 2px solid #141E30;
-    text-align: center;
+    margin-top: 5vh;
+    border-bottom: 4px solid #141E30;
+    border-radius: 10px;
+    text-align:center;
     margin-bottom: 20px;
 }
 .body{
@@ -28,7 +30,7 @@ min-height: 100vh;
             margin: 10px;
             transition: transform 0.2s ease-in-out;
             &:hover{
-                transform: scale(2,2);
+                transform: scale(1.2,1.2);
             }
         }
     }

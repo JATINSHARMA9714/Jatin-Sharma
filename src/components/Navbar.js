@@ -8,6 +8,7 @@ export default function Navbar() {
     let text = document.querySelectorAll('.main')
     let intro = document.querySelector('.intro')
     let navbar=document.querySelector('.navbar')
+    let navText=document.querySelectorAll('.nav-link');
     // console.log(document.body.classList.);
     if (!mode) {
 
@@ -18,6 +19,12 @@ export default function Navbar() {
       })
       intro.style.backgroundImage = 'linear-gradient(to left, #F2C94C, #F2C94C)'
       navbar.classList.remove('dark')
+      navText.forEach((element)=>{
+        element.classList.remove('white');
+      })
+      navText.forEach((element)=>{
+        element.classList.add('black');
+      })
       setMode(!mode)
     }
     else {
@@ -29,13 +36,19 @@ export default function Navbar() {
       })
       intro.style.backgroundImage = 'linear-gradient(to left,#0f0c29,#302b63,#2C5364)'
       navbar.classList.add('dark')
+      navText.forEach((element)=>{
+        element.classList.add('white');
+      })
+      navText.forEach((element)=>{
+        element.classList.remove('black');
+      })
+      setMode(!mode)
     }
   }
   return (
     <Wrapper>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg px-3">
         <div className="container-fluid">
-          <h2 className=" white">Portfolio</h2>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
             <span className="navbar-toggler-icon"></span>
@@ -47,22 +60,22 @@ export default function Navbar() {
 
               <li className="nav-item">
 
-                <a className="nav-link  white" aria-current="page" href="#intro">INTRO</a>
+                <a className="nav-link black space px-3" aria-current="page" href="#intro">INTRO</a>
 
               </li>
               <li className="nav-item">
 
-                <a className="nav-link white" href="#skill">SKILLS</a>
+                <a className="nav-link black space px-3" href="#skill">SKILLS</a>
 
               </li>
               <li className="nav-item">
 
-                <a className="nav-link white" href="#project">PROJECTS</a>
+                <a className="nav-link black space px-3" href="#project">PROJECTS</a>
 
               </li>
               <li className="nav-item">
 
-                <a className="nav-link white" href='#contact'>CONTACT</a>
+                <a className="nav-link black space px-3" href='#contact'>CONTACT</a>
 
               </li>
             </ul>

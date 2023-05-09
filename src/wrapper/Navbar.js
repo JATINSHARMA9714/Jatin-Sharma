@@ -2,15 +2,18 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
 /* border: 2px solid red; */
-position: fixed;
+position: sticky;
+top:0px;
 width: 100%;
+/* padding: 10px; */
 z-index: 100;
 background-color: #F2C94C;
-h2{
-  padding: 0px 10px;
+.black{
+  color: #232526;
+  /* font-size: larger; */
 }
 .white{
-  color: #000428;
+  color: white;
 }
 .switch-mode{
     /* border: 2px solid black; */

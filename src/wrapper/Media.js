@@ -5,7 +5,9 @@ const Wrapper = styled.div`
     height: 90vh;
     .heading{
         text-align: center;
-        border-bottom: 2px solid #0F2027;
+        border-bottom: 4px solid #0F2027;
+        border-radius: 10px;
+        margin-top: 4vh;
         margin-bottom: 20px;
     }
     .body{

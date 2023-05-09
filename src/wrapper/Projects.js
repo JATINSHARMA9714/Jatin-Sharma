@@ -4,7 +4,9 @@ const Wrapper = styled.div`
 padding: 20px;
 min-height: 100vh;
 .heading{
-    border-bottom: 2px solid #141E30;
+    border-bottom: 4px solid #141E30;
+    margin-top: 8vh;
+    border-radius: 10px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -28,7 +30,7 @@ min-height: 100vh;
             border: 1px solid #0F2027;
             color:#0F2027;
             &:hover{
-                background: linear-gradient(#0F2027,#203A43);
+                background: linear-gradient(to left,#0F2027,#203A43);
                 color:white;
             }
         }
