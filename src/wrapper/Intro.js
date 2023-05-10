@@ -10,10 +10,12 @@ flex-wrap: wrap;
 padding: 30px;
 justify-content: space-around;
     .intro-content{
-            font-size: 2.5rem;
+            #introText{
+                font-size: 2rem;
+            }
             width: 50vw;
             span{
-                font-size: 3rem;
+                font-size: 2.5rem;
                 color: #DC281E;
   
             }
