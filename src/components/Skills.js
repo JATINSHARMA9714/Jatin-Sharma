@@ -6,11 +6,13 @@ import javaImg from '../assets/java.png'
 import htmlImg from '../assets/html-5.png'
 import cssImg from '../assets/css-3.png'
 
-function Skills() {
+function Skills(props) {
   return (
     <Wrapper id='skill'>
         <div className="heading">
-            <h2 style={{color:'#141E30'}}>Skills</h2>
+            <h2 style={{color:props.mode?'white':'#141E30',
+            borderBottom:props.mode?'4px solid white':'4px solid #141E30',
+            borderRadius: '10px'}}>Skills</h2>
         </div>
         <div className="body">
             <div className="row">

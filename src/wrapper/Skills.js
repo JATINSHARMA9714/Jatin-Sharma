@@ -5,8 +5,8 @@ padding: 40px;
 min-height: 100vh;
 .heading{
     margin-top: 5vh;
-    border-bottom: 4px solid #141E30;
-    border-radius: 10px;
+    
+    
     text-align:center;
     margin-bottom: 20px;
 }

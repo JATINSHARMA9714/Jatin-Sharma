@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Wrapper from '../wrapper/Navbar'
 
-export default function Navbar() {
-  const [mode, setMode] = useState(true)
+export default function Navbar(props) {
   function changeMode() {
     let main = document.getElementById('introText')
     let text = document.querySelectorAll('.main')
@@ -10,7 +9,7 @@ export default function Navbar() {
     let navbar=document.querySelector('.navbar')
     let navText=document.querySelectorAll('.nav-link');
     // console.log(document.body.classList.);
-    if (!mode) {
+    if (props.mode) {
 
       document.body.style.backgroundImage = 'linear-gradient(to left, #F2C94C, #F2C94C)'
       main.style.color = 'black'
@@ -25,11 +24,10 @@ export default function Navbar() {
       navText.forEach((element)=>{
         element.classList.add('black');
       })
-      setMode(!mode)
+      props.changeMode();
     }
     else {
       document.body.style.backgroundImage = 'linear-gradient(to left,#0f0c29,#302b63,#2C5364)'
-      setMode(!mode)
       main.style.color = 'white'
       text.forEach(element => {
         element.style.color = 'red'
@@ -42,7 +40,7 @@ export default function Navbar() {
       navText.forEach((element)=>{
         element.classList.remove('black');
       })
-      setMode(!mode)
+      props.changeMode();
     }
   }
   return (
@@ -80,7 +78,7 @@ export default function Navbar() {
               </li>
             </ul>
             <div className='switch-mode'>
-              <input type="checkbox" className={`checkbox ${mode && `dark`}`} id="checkbox" onChange={() => changeMode()} />
+              <input type="checkbox" className={`checkbox ${props.mode && `dark`}`} id="checkbox" onChange={() => changeMode()} />
 
               <label htmlFor="checkbox" className="label">
 
