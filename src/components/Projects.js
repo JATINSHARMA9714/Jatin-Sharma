@@ -1,6 +1,6 @@
 import React from 'react'
 import Wrapper from '../wrapper/Projects'
-import fightPng from '../assets/fight.png'
+import moviePng from '../assets/moviesite.png'
 import monkeyPng from '../assets/monkey.png'
 import port from '../assets/portfolio.png'
 
@@ -12,7 +12,7 @@ function Projects() {
       </div>
       <div className="body">
         <div className="card">
-          <img src={fightPng} className="card-img-top" alt="fighting image" />
+          <img src={moviePng} className="card-img-top" alt="fighting image" />
           <div className="card-body">
             <h5 className="card-title">Movie Verse</h5>
             <p className="card-text">Created a Website which shows the Top Trending Movies</p>
