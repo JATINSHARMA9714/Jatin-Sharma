@@ -11,7 +11,7 @@ padding: 30px;
 justify-content: space-around;
     .intro-content{
             font-size: 2.5rem;
-            width: 500px;
+            width: 50vw;
             span{
                 font-size: 3rem;
                 color: #DC281E;
@@ -19,7 +19,7 @@ justify-content: space-around;
             }
     }
     .my-img{
-        width: 300px;
+        width: 30vw;
         /* height: ; */
         img{
             border-radius: 50%;
