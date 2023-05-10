@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a0334d82.css",
+    "main.js": "/static/js/main.83438dd8.js",
+    "static/media/moviesite.png": "/static/media/moviesite.780574ba1e1678a3b1cd.png",
+    "static/media/monkey.png": "/static/media/monkey.5fd0d6f0c1cda9ee874d.png",
+    "static/media/Hangyaku-vmxlD.ttf": "/static/media/Hangyaku-vmxlD.ed8e5b732ac13841bdce.ttf",
+    "static/media/portfolio.png": "/static/media/portfolio.c604e82bdad3b05fec99.png",
+    "static/media/my_img.jfif": "/static/media/my_img.ef9bbdb8d92a427c0064.jfif",
+    "static/media/BruceForeverRegular-X3jd2.ttf": "/static/media/BruceForeverRegular-X3jd2.423a3bdd9faa13b69911.ttf",
+    "static/media/letter-c.png": "/static/media/letter-c.ca323b325816f40cf155.png",
+    "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "index.html": "/index.html",
+    "main.a0334d82.css.map": "/static/css/main.a0334d82.css.map",
+    "main.83438dd8.js.map": "/static/js/main.83438dd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0334d82.css",
+    "static/js/main.83438dd8.js"
+  ]
+}
