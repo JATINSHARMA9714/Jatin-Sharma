@@ -19,7 +19,7 @@ justify-content: space-around;
             }
     }
     .my-img{
-        width: 30vw;
+        width: 25vw;
         /* height: ; */
         img{
             border-radius: 50%;
